@@ -19,7 +19,7 @@ In the text and email types you can add a placeholder of initial text that you w
 <input type="text" placeholder="Enter Name">
 ```
 
-You can also have text right by your text box that when clicked on will make the assigned input selected. Add the for attribute with the same name as the ID of the input like so:
+You can also have text right by your text box that when clicked on will make the assigned input selected. Add the+ for attribute with the same name as the ID of the input like so:
 
 ```html
 <label for="firstName">First Name: </label>
