@@ -14,15 +14,15 @@ a, h1, h2, h3, div, body, html {
 }
 
 #nav {
-  background-color: #aaa;
+  background-color: #aa2065;
   padding: 10px;
   text-align: center;
   font-family: Helvetica;
 }
 
 #nav a {
-  color: #eee;
-  font-size: 18px;
+  color: #5cd890;
+  font-size: 25px;
 }
 
 /**************************/
