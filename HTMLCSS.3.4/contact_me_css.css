@@ -1,0 +1,15 @@
+
+body {
+    font-family: "Sofia", sans-serif;
+    text-align: center;
+  }
+  h1 {font-weight: bolder;
+    
+    }
+    div { text-align: center;
+      
+    }
+    form { border: 5px solid black;
+      margin: 50% 30% 50% 30%;
+    }
+    .submit {padding-bottom: 15px;}
