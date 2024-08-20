@@ -4,7 +4,7 @@
 let yardWidth = 100;
 let yardLength = 15;
 
-let yardPerimeter;
+let yardPerimeter= yardWidth*2 + yardLength*2;
 
 
 // 2) With the yardPerimeter variable go ahead and use back ticks (``)
@@ -14,7 +14,7 @@ let yardPerimeter;
 // Don't remember how to do this? Go back to the first repl.it assignment from today
 // and look at the example problems console.log().
 
-let messagePerimeter;
+let messagePerimeter= `${"You are going to need 230ft of fence"}`;
 
 // 3)One last thing. It is going to cost me $15 per foot of fence.
 // What is the total price I am going to have to pay?
@@ -23,4 +23,4 @@ let messagePerimeter;
 
 let pricePerFoot = 15;
 
-let totalPrice;
+let totalPrice= pricePerFoot * yardPerimeter;
