@@ -15,6 +15,9 @@ function adding(myNum) {
   addTo = myNum;
   
   //write for loop here
-  
-  
+  for (let i = 0; i < 10; i++) {
+    addTo=addTo+i;
+    
+  }
+  myNum = addTo
 }
