@@ -51,4 +51,5 @@ function problem3(color) {
   if(color == "yellow" || color == "#ffff00" || color == "green" || color == "#00ff00"){
     favGreenOrYellowWithHex = true;
   }
+  
 }
