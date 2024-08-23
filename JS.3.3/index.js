@@ -22,7 +22,7 @@ console.log(addTwoNumbers(1,1))
 // Perimeter is width + width + height + height
 
 function perimeter(width, height) {
-  let answer;
+  let answer= width+ width+height+height;
   return answer;
 }
 
@@ -35,7 +35,7 @@ function perimeter(width, height) {
 // Area is width * height
 
 function area(width, height) {
-  let answer;
+  let answer=width*height;
   return answer;
 }
 
@@ -46,7 +46,7 @@ function area(width, height) {
 // Have it output "Hello (persons name)"
 
 function helloMessage(name) {
-  return;
+  return "Hello " + name; 
 }
 
 // Problem 5
@@ -57,5 +57,13 @@ function helloMessage(name) {
 // If it is any other color return "Great choice!".
 
 function favColor(color) {
-  
+  if (color === 'blue' || color==='red' || color==='green') {
+    return "That is a great color!";
+  }
+  else if(color==='yellow'){
+    return "Just like the sun!";
+  }
+  else {
+   return "Great choice!";
+  }
 }
