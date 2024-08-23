@@ -9,3 +9,7 @@
 let i = 5;
 
 //write loop here.
+do {
+    console.log(i);
+    i++;
+  } while (i > 10);
