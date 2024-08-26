@@ -11,7 +11,10 @@
 let i = 0;
 
 //write loop here
-
+while (i <5){
+  console.log(i);
+  i++;
+}
 
 
 // Problem 2
@@ -26,12 +29,14 @@ let i = 0;
 
 let lessThan5 = true;
 let j = 0;
-
 while(lessThan5) {
-  
-  lessThan5 = false;
-  
+  if (j > 4) {
+    lessThan5 = false;
+  } else {
+    j++;
+  }
 }
+
 
 
 
@@ -63,7 +68,8 @@ function guessNumberGame(guess) {
 
 let k = 0;
 function keepLooping(num) {
-  
-  
-}
+    while(k < num) {
+      k++;
+    }
+  }
 
