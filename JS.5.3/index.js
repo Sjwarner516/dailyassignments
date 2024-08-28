@@ -5,7 +5,11 @@
 
 let myArray = [1, 11, 7, 3, 8, 2, 3, 2, 10, 3, 6, 2, 5];
 function filterMyArray() {
-  //write code here
+const myArray2=  myArray.filter(function(item){
+    return item<11&&item>5;
+}); 
+myArray = myArray2;
+
 }
 
 // Problem 2
@@ -15,5 +19,11 @@ function filterMyArray() {
 let multiplyArray = [1, 11, 7, 3, 8, 2, 3, 2, 10, 3, 6, 2, 5];
 
 function multiplyNumbers() {
-  //write code here
+  multiplyArray.forEach(multiplyArrayNumbers);
+    
 }
+
+function multiplyArrayNumbers(item, index, arr) {
+  arr[index] = item * 5;
+  
+} 
