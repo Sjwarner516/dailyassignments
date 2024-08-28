@@ -5,7 +5,7 @@
 
 let array1 = [1, 2, 3, 4, 5, 6];
 function removeLastItem() {
-  //write code here
+array1.pop();
 }
 
 
@@ -14,7 +14,7 @@ function removeLastItem() {
 
 let array2 = ["This", "Hello", "World"];
 function removeFirstItem() {
-  //write code here
+  array2.shift();
 }
 
 
@@ -23,7 +23,6 @@ function removeFirstItem() {
 
 let array3 = ["well", "stuff", "money", "ready", "hello"];
 function removeItems() {
-  //write code here
   array3.splice(1, 1);
   array3.splice(2, 1);
 }
@@ -36,7 +35,7 @@ function removeItems() {
 let array4 = ["hello", "people"];
 
 function addItem() {
-  //write code here
+  array4.unshift("well");
 }
 
 
@@ -45,7 +44,7 @@ function addItem() {
 
 let array5 = ["with", "great", "comes", "great", "responsibility"];
 function addMoreItem() {
-  //write code here
+  array5.splice(2,0,"power");
 }
 
 // Problem 6
@@ -53,6 +52,6 @@ function addMoreItem() {
 
 let array6 = [1, 2, 3, 4, 5, 6];
 function addLast() {
-  //write code here
+  array6.push(7);
 }
 
